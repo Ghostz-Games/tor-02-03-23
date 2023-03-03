@@ -12,9 +12,9 @@ class Main {
 		actions.add("4) End game");
 		//System.out.print(actions.get(2));
 		GameMenu gameMenu = new GameMenu(actions);
-		//gameMenu.displayMenu(actions);
+		//gameMenu.displayMenu();
 
-		String choice = gameMenu.getAction(actions);
+		String choice = gameMenu.getAction();
 		//System.out.println(choice);
 		int userChoice = Integer.parseInt(choice);
 		doAction(userChoice);

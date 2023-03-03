@@ -13,17 +13,17 @@ public class GameMenu {
 
 
 
-	public void displayMenu(ArrayList<String> actions){
+	public void displayMenu(){
 
-		for(String s: actions){
+		for(String s: this.actions){
 			System.out.println(s);
 		}
 
 	}
 
-	public String getAction(ArrayList<String> actions){
+	public String getAction(){
 		System.out.println("Type a number to choose an action:");
-		displayMenu(actions);
+		displayMenu();
 
 		Scanner scan = new Scanner(System.in);
 		String choice = scan.nextLine();
