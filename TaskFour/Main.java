@@ -10,9 +10,10 @@ class Main {
 		actions.add("2) Resume game");
 		actions.add("3) Pause game");
 		actions.add("4) End game");
-		//System.out.print(actions.get(2));
+
+
 		GameMenu gameMenu = new GameMenu(actions);
-		gameMenu.displayMenu(actions);
+		gameMenu.displayMenu();
 
 
 	}

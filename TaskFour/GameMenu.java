@@ -12,9 +12,9 @@ public class GameMenu {
 
 
 
-	public void displayMenu(ArrayList<String> actions){
+	public void displayMenu(){
 
-		for(String s: actions){
+		for(String s: this.actions){
 			System.out.println(s);
 		}
 
